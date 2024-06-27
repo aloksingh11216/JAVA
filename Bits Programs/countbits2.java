@@ -6,7 +6,8 @@ class CountBits2
 		int bitcount=getBitsCount(n);
 		System.out.println("Total Bits in "+n+" are: "+bitcount);
 	}
-	public static int getBitsCount(int n){
+	public static int getBitsCount(int n)
+	{
 		int count=0;
 		while(n>0){
 			count++;
