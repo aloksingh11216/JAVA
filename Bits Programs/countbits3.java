@@ -11,7 +11,8 @@ class CountBits3
 	}
 	public static int getBitsCount(int n){
 		int count=0;
-		while(n>0){
+		while(n>0)
+		{
 			count++;
 		n=n/2;
 		}
