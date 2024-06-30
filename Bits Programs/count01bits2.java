@@ -1,11 +1,12 @@
 
 import java.util.Scanner;
-class Count01BitSecond
+class Count01Bit2
 {
 	public static void main(String[] args)
 	{
-		Scanner sc=new Scanner(System.in);
-		System.out.println("ENter the Number: ");
+		@SuppressWarnings("resource")
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter the Number: ");
 		int n=sc.nextInt();
 		getBitsCount(n);
 	}
